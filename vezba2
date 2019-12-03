@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>vezba2</title>
+</head>
+<body>
+
+	<input type="number" name="">
+	<input type="password" name="">
+	<input type="checkbox" name="">
+	<input type="radio" name="">
+
+</body>
+</html>
