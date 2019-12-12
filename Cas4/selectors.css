@@ -1,0 +1,14 @@
+html{}
+body{background-color: gray;}
+h1{color: #9b59b6;}
+p{background-color: yellow;}
+.hello{background-color: white}
+#special{border: 1px blue solid;
+border-radius: 1px;
+}
+
+h2{color:orange;}
+ul{color:blue;}
+input[type="checkbox"]:checked{color: red;}
+div p{background-color: purple;}
+div p em{color: white;}
