@@ -1,0 +1,14 @@
+body{
+
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.numberone, .numbertwo{
+
+	background-color: white;
+	height: 100px;
+	width: 200px;
+}

@@ -1,0 +1,20 @@
+body{
+
+	background-color: #262626;
+
+}
+
+.cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.bar{
+
+	background-color: white;
+	width: 50px;
+	border: 1px solid black;
+
+}

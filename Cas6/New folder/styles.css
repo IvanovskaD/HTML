@@ -1,0 +1,59 @@
+body{
+
+	background-color: #262626;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.item{
+	
+	background-color: white;
+	width: 300px;
+	padding: 0 0 10px 0;
+	margin: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.box-img{
+	border: 4px solid black;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: #c0d5ff;
+    position: relative;
+    top: 40px;
+    background-image: url(cats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position: center;
+
+
+}
+
+.img-bg{
+	width: 100%;
+	background-color: #5559a7;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid black;
+	border-top-right-radius: 5px;
+}
+
+h1{
+	align-self: flex-start;
+}
+
+.item-text{
+	padding: 10px;
+}

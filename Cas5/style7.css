@@ -1,0 +1,13 @@
+.cont{
+	background-color: gray;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cont div{
+
+	background-color: blue;
+	width: 100px;
+	margin: 10px;
+
+}
