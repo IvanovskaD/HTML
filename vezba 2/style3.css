@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+h1{
+
+	height: 100px;
+	width: 200px;
+	color: white;
+	background-color: grey;
+	margin: auto;
+	animation-name: header;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+
+
+}
+
+.text{
+
+	height: 200px;
+	width: 100px;
+	background-color: white;
+	animation-name: tekst;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+
+}
+
+button{
+
+	height: 50px;
+	width: 70px;
+	margin-left: 50%;
+	animation-name: kopce;
+	animation-duration: 3s;
+	transition: 
+}
+
+@keyframes header{
+
+
+	0%{margin-top: 0;}
+	25%{margin-top: 10%;}
+	50%{margin-top: 15%; }
+	75%{margin-top: 20%;}
+}
+
+@keyframes tekst{
+
+
+	0%{margin-left: 10%;}
+	25%{margin-left: 20%;}
+	50%{margin-left: 30%; }
+	75%{margin-left: 50%;}
+}
+
+@keyframes kopce{
+
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 1;}
+}
